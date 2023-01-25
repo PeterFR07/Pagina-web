@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/270/145/133/leaves-macro-red-background-wallpaper-preview.jpg);
+    background-size: cover;
+    padding-top: 100px;
+}
+.formulario {
+    width: 60%;
+    margin: auto;
+    background:  rgb(196, 108, 81);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 33px 67px;
+    border-top: 6px solid rgb(191, 70, 33);
+    box-shadow: 0px 35px 44px -22px rgba(0, 0, 0, 0.72);
+}
+
+
+
+
+

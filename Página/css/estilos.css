@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+        }
+        h1{
+            text-align: center;
+            background-image: url(https://i.pinimg.com/originals/95/9e/16/959e1665363cc201cd2c96fdf6577735.jpg);
+            color: black;
+            padding: 20px;
+            font-family: cursive; 
+            align-items: center;
+            font-size: 50px;
+            width: 100%;
+        }
+        nav ul {
+            background-color: rgb(156, 153, 152);
+            width: 110%;
+            list-style-type: none;
+            text-align: center;
+            margin-right: 20em;
+        }
+        nav li {
+            display: inline-flex;
+            padding: 10px;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            width: 150px;
+        }
+        nav li:hover {
+            background-color: black;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: scale-down;
+        }
+        .article {
+            width: 80%;
+            border-bottom: 3px solid beige;
+        }
+        .todo {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+       .section {
+          margin-left: 10%;
+          margin-right: 10%;
+       }
+       .list-inline {
+           list-style: none;
+       }
+       .inferior {
+        background-image: url(https://img.freepik.com/foto-gratis/textura-negra-fondo_1160-614.jpg?size=626&ext=jpg);
+        color: white;
+        padding: 2.5%;
+        width: 100%;
+       }
+       .final {
+           margin-left: 25%;
+           margin-right: 10%;
+           font-size: 35px;
+       }
+       .description {
+           font-size: 30px;
+           font-family: 'Times New Roman', Times, serif;
+       }
+       h2 {
+           font-size: 40px;
+       }
+       .primero {
+           font-size: 30px;
+           padding: 2.5%;
+           border: black 1px solid;
+       }
+       .debajo {
+           font-size: 25px;
+       }
+       h3 {
+           font-size:25px;
+       }
+       .enlaces {
+           list-style: none;
+           list-style-type: none;
+           display: inline-block;
+           font-size: inherit;
+       }
+       .imagenes {
+           margin-left: auto;
+           margin-right: auto;
+           display: inline;
+       }
+       .nose{
+           position: relative;
+           border-radius: 0%;
+       }
+       .redes{
+           border-radius: 0%;
+       }

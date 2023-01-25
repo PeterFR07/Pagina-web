@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/demonio.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estiloformulario.css" type="text/css" />
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="mailto:peterdragneel7@gmail.com" method="post" enctype="multipart/formtext/plain">
+        <div class="formulario">
+        <label for="nombrecillo"> Escribe tu nombre:(*)</label>
+        <input type="text" name="mitexto" placeholder="Nombre" id="nombrecillo" required><br><br />
+
+        <input type="radio" name="sexo" id="machote"><label for="machote"> Hombre </label><br />
+        <input type="radio" name="sexo" id="hembrota"><label for="hembrota"> Mujer </label><br />
+        <input type="radio" name="sexo" id="nobinario"><label for="nobinario"> Sin género </label><br />
+        <textarea name="textarea" rows="2" cols="20" placeholder="Nombre su identidad" id="nobinario"></textarea><br><br />
+
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="date" id="fecha" required><br><br />
+
+        <label for="url">Tu página web:</label>
+        <input type="text" name="tuweb" value="http://" id="url" required><br><br />
+
+        <label for="calificacion"required >¿Qué te ha parecido esta página web?</label><br />
+        <input type="radio" name="opinion" id="malo" value="malo"><label for="malo">No ayuda, lía aún más.</label><br />
+        <input type="radio" name="opinion" id="ni-na"><label for="ni-na">No ayuda mucho.</label><br />
+        <input type="radio" name="opinion" id="pufff"><label for="pufff">Ni bien, ni mal.</label><br />
+        <input type="radio" name="opinion" id="bueno"><label for="bueno">Algo me ha ayudado.</label><br />
+        <input type="radio" name="opinion" id="pro"><label for="pro">Ha solucionado mis problemas.</label><br><br />
+
+        <label for="opina">¿Cuál era tu mayor problema con tu página web?</label>
+        <select name="problem" style="width: 100%;" id="problem" required>
+            <option disabled selected>Selecciona uno</option>
+            <option value="No visitas">No recibía las visitas deseadas.</option>
+            <option value="Provecho">No le sacaba todo el provecho a mi página.</option>
+            <option value="Texto">El público no llegaba a descubrir mis productos.</option>
+            <option value="Tiempo">Mi web tardaba en cargar y perdía mucho público.</option>
+            <option value="Diseño">El diseño de mi página no era atractivo</option>
+        </select><br><br />
+
+        <label for="tunota">De 1 a 10 que nota pondrías a los consejos dados en la web.(*)</label>
+        <input type="number" name="nota" id="tunota" min="1" max="10" required><br><br />
+
+        <label for="describe">Describe tu problema con tu página web y en qué te hemos servido de ayuda.</label><br />
+        <textarea name="problema" placeholder="Escribe aquí." cols="25%" rows="5" id="describe"></textarea><br><br />
+
+        <input type="checkbox"> 
+        <label for="tuemail">Datos de contacto:</label>
+        <input type="text" name="escribe" placeholder="Escribe tu email" id="tuemail"><br><br />
+
+        <label for="error"></label>
+        <input type="reset" name="limpiar" value="Borrar"><br><br />
+
+        <label for="terminar"></label>
+        <input type="submit" name="enviar" value="ENVIAR"><br><br />
+
+        <legend><b>(*) son campos obligatorios</b></legend>
+        </div>
+
+
+    </form>
+</body>
+</html>
